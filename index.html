@@ -90,7 +90,7 @@
         }
 
         .info-bar {
-            margin-top: -50px;
+            margin-top: -24px;
             position: relative;
             z-index: 30;
         }
@@ -128,6 +128,11 @@
         }
     </style>
 
+    <!-- ⚠️ ATENÇÃO: confirme se GTM-5BRZMGJ abaixo é da conta M'Cars antes de publicar.
+         Os scripts de conversão do Google Ads mais abaixo no <head> referenciam
+         "Doctor Auto Service" (outro negócio, bairro Lapa) — provável resquício de
+         template. Se confirmado, troque o ID do GTM e as tags do Google Ads pelos
+         da conta real da M'Cars, senão as conversões serão contadas para outra empresa. -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
                 'gtm.start':
@@ -1865,7 +1870,7 @@
                 <a href="https://wa.me/5562991175926"
                     class="btn px-4 md:px-5 py-2 rounded-full font-bold text-[10px] md:text-xs uppercase tracking-widest"
                     style="background-color: rgb(172, 5, 5); color: #fff;">
-                    LIGAR AGORA!
+                    FALE NO WHATSAPP
                 </a>
                 <button id="menu-toggle" class="lg:hidden text-white text-2xl" aria-label="Abrir Menu">
                     <i class="fas fa-bars"></i>
@@ -1884,7 +1889,7 @@
         </nav>
     </div>
 
-    <section id="inicio" class="relative min-h-screen flex items-center pt-20 overflow-hidden bg-black">
+    <section id="inicio" class="relative min-h-screen flex items-center pt-20 pb-16 md:pb-24 overflow-hidden bg-black">
         <div class="absolute inset-0 z-0">
             <img src="images/back.webp" width="1600" height="900" class="w-full h-full object-cover opacity-50"
                 alt="Oficina M'Cars Reparação Automotiva">
@@ -1899,13 +1904,13 @@
                 </span>
                 <h1
                     class="text-4xl md:text-8xl font-black text-white mb-6 uppercase leading-tight md:leading-[0.9] font-brand">
-                    Serviços Automotivos <br><span class="text-blue-600 md:text-outline">Premium em Goiânia</span>
+                    Seu carro batido, <br><span class="text-blue-600 md:text-outline">de volta como saiu de fábrica</span>
                 </h1>
                 <p class="text-base md:text-2xl text-gray-200 mb-10 max-w-2xl font-light leading-relaxed">
-                    Serviços especializados de alto padrão, com tecnologia de ponta e acabamento profissional,
-                    realizados com total cuidado em veículos convencionais e carros blindados.
+                    Cabine de pintura climatizada e pressurizada, sistema tintométrico e equipe certificada.
+                    Atendemos mais de 12 seguradoras e entregamos com 12 meses de garantia — do carro popular ao blindado.
                 </p>
-                <div class="flex flex-col sm:flex-row gap-4">
+                <div class="flex flex-col sm:flex-row gap-4 sm:gap-6">
                     <a href="https://wa.me/5562991175926"
                         class="btn-blue px-10 py-5 rounded-lg text-sm gap-3 shadow-xl shadow-blue-900/40">
                         <i class="fab fa-whatsapp"></i>Orçamento por Fotos
@@ -1985,7 +1990,7 @@
                     <div class="h-56 overflow-hidden relative">
                         <img src="images/funilaria.jpg"
                             class="w-full h-full object-cover group-hover:scale-110 transition duration-500"
-                            alt="Funilaria e Pintura na Lapa">
+                            alt="Funilaria e Pintura em Goiânia">
                         <!--<div class="absolute top-4 right-4 bg-blue-700 text-white px-3 py-1 rounded text-[10px] font-bold uppercase"></div>-->
                     </div>
                     <div class="p-8 flex-grow">
@@ -2007,7 +2012,7 @@
                     <div class="h-56 overflow-hidden">
                         <img src="images/martelinho.jpg"
                             class="w-full h-full object-cover group-hover:scale-110 transition duration-500"
-                            alt="Martelinho de Ouro na Lapa">
+                            alt="Martelinho de Ouro em Goiânia">
                     </div>
                     <div class="p-8 flex-grow">
                         <h3 class="text-xl font-black uppercase mb-4 text-black">Martelinho de Ouro</h3>
@@ -2028,7 +2033,7 @@
                     <div class="h-56 overflow-hidden">
                         <img src="images/vitrificacao.jpg"
                             class="w-full h-full object-cover group-hover:scale-110 transition duration-500"
-                            alt="Vitrificação Automotiva na Lapa">
+                            alt="Vitrificação Automotiva em Goiânia">
                     </div>
                     <div class="p-8 flex-grow">
                         <h3 class="text-xl font-black uppercase mb-4 text-black">Vitrificação</h3>
@@ -2049,7 +2054,7 @@
                     <div class="h-56 overflow-hidden">
                         <img src="images/polimento.webp"
                             class="w-full h-full object-cover group-hover:scale-110 transition duration-500"
-                            alt="Polimento e Cristalização na Lapa">
+                            alt="Polimento e Cristalização em Goiânia">
                     </div>
                     <div class="p-8 flex-grow">
                         <h3 class="text-xl font-black uppercase mb-4 text-black">Polimento e Cristalização</h3>
@@ -2070,7 +2075,7 @@
                     <div class="h-56 overflow-hidden bg-gray-900">
                         <img src="images/mecanica.jpg"
                             class="w-full h-full object-cover group-hover:scale-110 transition duration-500 opacity-60"
-                            alt="Mecânica Automotiva na Lapa">
+                            alt="Mecânica Automotiva em Goiânia">
                     </div>
                     <div class="p-8 flex-grow">
                         <h3 class="text-xl font-black uppercase mb-4 text-black">Mecânica Automotiva</h3>
@@ -2091,7 +2096,7 @@
                     <div class="h-56 overflow-hidden bg-gray-900">
                         <img src="images/blindado.jpg"
                             class="w-full h-full object-cover group-hover:scale-110 transition duration-500 opacity-60"
-                            alt="Manutenção de Blindados na Lapa">
+                            alt="Manutenção de Blindados em Goiânia">
                     </div>
                     <div class="p-8 flex-grow">
                         <h3 class="text-xl font-black uppercase mb-4 text-black">Veículos Blindados</h3>
@@ -2161,27 +2166,27 @@
                 <div class="lg:w-2/3 grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div class="diff-card">
                         <i class="fas fa-certificate text-3xl text-blue-700 mb-6"></i>
-                        <h4 class="font-black uppercase text-sm mb-3">Profissionais Qualificados</h4>
-                        <p class="text-zinc-950 text-[13px] leading-relaxed">Profissionais altamente treinados com anos
-                            de experiência em atualizações constantes.</p>
+                        <h4 class="font-black uppercase text-sm mb-3">25+ Anos de Estrada</h4>
+                        <p class="text-zinc-950 text-[13px] leading-relaxed">Mais de 25 anos e 5.000 carros atendidos
+                            em Goiânia — experiência que se vê no acabamento.</p>
                     </div>
                     <div class="diff-card">
                         <i class="fas fa-microchip text-3xl text-blue-700 mb-6"></i>
-                        <h4 class="font-black uppercase text-sm mb-3">Equipamentos de Ponta</h4>
-                        <p class="text-zinc-950 text-[13px] leading-relaxed">Investimos em cabine pressurizada e
-                            ferramentas de alta precisão.</p>
+                        <h4 class="font-black uppercase text-sm mb-3">Cabine Climatizada</h4>
+                        <p class="text-zinc-950 text-[13px] leading-relaxed">Cabine pressurizada e sistema tintométrico
+                            próprios — nada terceirizado, controle do início ao fim.</p>
                     </div>
                     <div class="diff-card">
                         <i class="fas fa-shield-check text-3xl text-blue-700 mb-6"></i>
-                        <h4 class="font-black uppercase text-sm mb-3">Garantia de Qualidade</h4>
-                        <p class="text-zinc-950 text-[13px] leading-relaxed">Oferecemos 12 meses de garantia em
-                            funilaria e pintura com rigoroso controle.</p>
+                        <h4 class="font-black uppercase text-sm mb-3">12 Meses de Garantia</h4>
+                        <p class="text-zinc-950 text-[13px] leading-relaxed">Toda funilaria e pintura sai com 12 meses
+                            de garantia por escrito, sem letra miúda.</p>
                     </div>
                     <div class="diff-card">
                         <i class="fas fa-user-friends text-3xl text-blue-700 mb-6"></i>
-                        <h4 class="font-black uppercase text-sm mb-3">Companhia de Seguros</h4>
-                        <p class="text-zinc-950 text-[13px] leading-relaxed">Atendimento especializado para seguradoras
-                            com processos padronizados e ágeis.</p>
+                        <h4 class="font-black uppercase text-sm mb-3">+12 Seguradoras</h4>
+                        <p class="text-zinc-950 text-[13px] leading-relaxed">Aprovação direta com mais de 12 seguradoras
+                            — você só entrega as chaves.</p>
                     </div>
                 </div>
             </div>
@@ -2217,8 +2222,8 @@
 
     <section id="promocao" class="promo-banner py-20 md:py-32 text-white relative overflow-hidden text-center">
         <div class="container mx-auto px-6 relative z-10">
-            <h2 class="text-4xl md:text-7xl font-black uppercase mb-6 font-brand leading-tight">Oferta do <span
-                    class="text-blue-600">Mês</span></h2>
+            <h2 class="text-4xl md:text-7xl font-black uppercase mb-6 font-brand leading-tight">Só até <span
+                    class="text-blue-600">[DD/MM]</span></h2>
             <p class="text-xl md:text-3xl font-bold mb-10">Ganhe <span class="bg-blue-700 text-white px-3 py-1">15% DE
                     DESCONTO</span> no Polimento!</p>
             <a href="https://wa.me/5562991175926?text=Vi%20a%20promo%C3%A7%C3%A3o%20no%20site%20e%20quero%20o%20desconto!"
