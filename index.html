@@ -1904,11 +1904,13 @@
                 </span>
                 <h1
                     class="text-4xl md:text-8xl font-black text-white mb-6 uppercase leading-tight md:leading-[0.9] font-brand">
-                    Seu carro batido, <br><span class="text-blue-600 md:text-outline">de volta como saiu de fábrica</span>
+                    Seu carro batido, <br><span class="text-blue-600 md:text-outline">de volta como saiu de
+                        fábrica</span>
                 </h1>
                 <p class="text-base md:text-2xl text-gray-200 mb-10 max-w-2xl font-light leading-relaxed">
                     Cabine de pintura climatizada, sistema tintométrico e equipe certificada.
-                    Atendemos mais de 12 seguradoras e entregamos com 12 meses de garantia — do carro popular ao blindado.
+                    Atendemos mais de 12 seguradoras e entregamos com 12 meses de garantia — do carro popular ao
+                    blindado.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 sm:gap-6">
                     <a href="https://wa.me/5562991175926"
@@ -1929,7 +1931,8 @@
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center mb-10">
                 <h2 class="text-4xl md:text-6xl font-black uppercase text-black font-brand leading-none mb-6">NOSSA
-                <span class="text-blue-700">ESTRUTURA</span></h2>
+                    <span class="text-blue-700">ESTRUTURA</span>
+                </h2>
                 <h2 class="text-4xl font-bold text-gray-900 mt-3">Uma oficina à altura do seu veículo</h2>
                 <p class="text-gray-600 max-w-3xl mx-auto mt-4">Conheça nossa estrutura e alguns dos veículos que
                     passaram por nossa oficina.</p>
@@ -1953,7 +1956,8 @@
         <div class="container mx-auto px-6">
             <div class="max-w-3xl mb-12 md:mb-16">
                 <h2 class="text-4xl md:text-6xl font-black uppercase text-black font-brand leading-none mb-6">Nossos
-                    <span class="text-blue-700">Serviços</span></h2>
+                    <span class="text-blue-700">Serviços</span>
+                </h2>
                 <p class="text-zinc-950 text-lg">Utilizamos tecnologia de última geração e materiais de alto padrão para
                     garantir resultados impecáveis em nossos serviços, inclusive em veículos blindados.</p>
             </div>
@@ -2122,6 +2126,59 @@
         </div>
     </section>
 
+
+    <!-- PARTE DE VÍDEOS -->
+    <section id="videos" class="py-20 bg-neutral-950">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-white mb-4">Veja nossos serviços em ação</h2>
+            <p class="text-center text-gray-400 mb-10">Arraste para o lado e confira alguns dos nossos trabalhos.</p>
+            <div class="relative">
+                <div id="videoCarousel" class="flex gap-6 overflow-x-auto snap-x snap-mandatory scroll-smooth pb-4"
+                    style="-ms-overflow-style:none;scrollbar-width:none;">
+                    <div
+                        class="min-w-[85%] md:min-w-[48%] lg:min-w-[32%] snap-center rounded-2xl overflow-hidden bg-black border border-white/10 shadow-xl">
+                        <video controls preload="metadata" class="w-full h-[520px] object-cover" playsinline>
+                            <source src="vids/video1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div
+                        class="min-w-[85%] md:min-w-[48%] lg:min-w-[32%] snap-center rounded-2xl overflow-hidden bg-black border border-white/10 shadow-xl">
+                        <video controls preload="metadata" class="w-full h-[520px] object-cover" playsinline>
+                            <source src="vids/video2.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div
+                        class="min-w-[85%] md:min-w-[48%] lg:min-w-[32%] snap-center rounded-2xl overflow-hidden bg-black border border-white/10 shadow-xl">
+                        <video controls preload="metadata" class="w-full h-[520px] object-cover" playsinline>
+                            <source src="vids/video3.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div
+                        class="min-w-[85%] md:min-w-[48%] lg:min-w-[32%] snap-center rounded-2xl overflow-hidden bg-black border border-white/10 shadow-xl">
+                        <video controls preload="metadata" class="w-full h-[520px] object-cover" playsinline>
+                            <source src="vids/video4.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div
+                        class="min-w-[85%] md:min-w-[48%] lg:min-w-[32%] snap-center rounded-2xl overflow-hidden bg-black border border-white/10 shadow-xl">
+                        <video controls preload="metadata" class="w-full h-[520px] object-cover" playsinline>
+                            <source src="vids/video5.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <button onclick="document.getElementById('videoCarousel').scrollBy({left:-400,behavior:'smooth'})"
+                    class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 bg-white/10 hover:bg-white/20 text-white w-12 h-12 rounded-full items-center justify-center">&#10094;</button>
+                <button onclick="document.getElementById('videoCarousel').scrollBy({left:400,behavior:'smooth'})"
+                    class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 bg-white/10 hover:bg-white/20 text-white w-12 h-12 rounded-full items-center justify-center">&#10095;</button>
+            </div>
+        </div>
+    </section>
+    <style>
+        #videoCarousel::-webkit-scrollbar {
+            display: none
+        }
+    </style>
+
     <section id="diferenciais" class="py-16 md:py-24 bg-white">
         <div class="container mx-auto px-6">
             <div class="flex flex-col lg:flex-row gap-12 md:gap-16 items-start">
@@ -2129,7 +2186,8 @@
                     <span class="text-blue-700 font-bold uppercase tracking-widest text-sm mb-4 block">Por que escolher
                         a M'Cars</span>
                     <h2 class="text-3xl md:text-5xl font-black uppercase text-black font-brand leading-none mb-8">Nossos
-                        <span class="text-blue-700">Diferenciais</span></h2>
+                        <span class="text-blue-700">Diferenciais</span>
+                    </h2>
                     <p class="text-zinc-950 mb-10 leading-relaxed">Entregamos excelência em cada detalhe, combinando
                         tecnologia de ponta e profissionais qualificados.</p>
                     <div class="bg-gray-50 p-6 rounded-xl border-l-4 border-blue-700">
@@ -2376,7 +2434,8 @@
                     <div class="flex items-start gap-4">
                         <div
                             class="w-10 h-10 bg-blue-700 rounded flex items-center justify-center text-white shrink-0 mt-1">
-                            <i class="fas fa-map-marker-alt"></i></div>
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
                         <div>
                             <span class="text-lg md:text-xl font-bold text-black block">Av. Francisco de Melo - Vila
                                 Rosa, Goiânia - GO</span>
@@ -2386,7 +2445,8 @@
                     <div class="flex items-start gap-4">
                         <div
                             class="w-10 h-10 bg-blue-700 rounded flex items-center justify-center text-white shrink-0 mt-1">
-                            <i class="fas fa-clock"></i></div>
+                            <i class="fas fa-clock"></i>
+                        </div>
                         <div>
                             <span class="text-lg md:text-xl font-bold text-black block">Seg a Sex: 08:00 às 18:00</span>
                         </div>
@@ -2394,7 +2454,8 @@
                     <div class="flex items-start gap-4">
                         <div
                             class="w-10 h-10 bg-green-500 rounded flex items-center justify-center text-white shrink-0 mt-1">
-                            <i class="fab fa-whatsapp"></i></div>
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
                         <div>
                             <a href="https://wa.me/5562991175926" target="_blank"
                                 class="text-lg md:text-xl font-bold text-black block">
